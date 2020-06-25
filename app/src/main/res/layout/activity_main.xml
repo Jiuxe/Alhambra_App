@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="6in"
+    android:layout_height="3in"
+    android:scrollbars="vertical"
+    android:id="@+id/scroll">
+    <HorizontalScrollView
+        android:layout_width="6in"
+        android:layout_height="10in"
+        android:id="@+id/h_scroll"
+        android:layout_marginTop="0in">
+
+        <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:id="@+id/relative">
+
+            <ImageView
+                android:id="@+id/fondo"
+                android:layout_width="7in"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="-3dp"
+                android:layout_marginBottom="0dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/app_name"
+                android:nestedScrollingEnabled="false"
+                android:scaleType="fitStart"
+                android:src="@drawable/alhambrarelieveprincipal"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/alcazabarOscuro"
+                android:layout_width="1.62in"
+                android:layout_height="0.43in"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="1.23in"
+                android:layout_marginTop="1.1in"
+
+                android:src="@drawable/alcazabasombra" />
+
+            <ImageView
+                android:id="@+id/palacionazariesOscuro"
+                android:layout_width="1.4in"
+                android:layout_height="0.8in"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="2.4in"
+                android:layout_marginTop="0.83in"
+                android:src="@drawable/palaciosnazariessombra" />
+
+            <ImageView
+                android:id="@+id/generalifeOscuro"
+                android:layout_width="1in"
+                android:layout_height="1.2in"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="4.55in"
+                android:layout_marginTop="0.7in"
+                android:src="@drawable/generalifesombra" />
+
+            <ImageView
+                android:id="@+id/carlosOscuro"
+                android:layout_width="1.8in"
+                android:layout_height="0.6in"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="2.03in"
+                android:layout_marginTop="1.26in"
+                android:src="@drawable/carlossombra" />
+
+            <ImageView
+                android:id="@+id/jardinesOscuro"
+                android:layout_width="2.5in"
+                android:layout_height="0.9in"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="3.09in"
+                android:layout_marginTop="1.25in"
+                android:src="@drawable/jardinessombra" />
+
+            <ImageView
+                android:id="@+id/medinaOscuro"
+                android:layout_width="2.5in"
+                android:layout_height="0.9in"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="3.1in"
+                android:layout_marginTop="1.67in"
+                android:src="@drawable/medinasombra" />
+
+            <Button
+                android:id="@+id/botonAlcazaba"
+                android:layout_width="0.85in"
+                android:layout_height="0.4in"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="1.6in"
+                android:layout_marginTop="1.1in"
+                android:text="Button"
+                android:visibility="visible"
+                />
+
+            <Button
+                android:id="@+id/botonPalacioCarlosV"
+                android:layout_width="0.95in"
+                android:layout_height="0.45in"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="2.50in"
+                android:layout_marginTop="1.28in"
+                android:text="Button"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/botonPalaciosNazaries"
+                android:layout_width="1.1in"
+                android:layout_height="0.3in"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="2.50in"
+                android:layout_marginTop="1.03in"
+                android:text="Button"
+                android:visibility="visible" />
+
+
+
+            <Button
+                android:id="@+id/botonGeneralife"
+                android:layout_width="0.8in"
+                android:layout_height="1.1in"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="4.6in"
+                android:layout_marginTop="0.6in"
+                android:text="Button"
+                android:visibility="visible" />
+
+
+
+            <Button
+                android:id="@+id/botonJardines"
+                android:layout_width="1.15in"
+                android:layout_height="0.67in"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="3.45in"
+                android:layout_marginTop="1.27in"
+                android:text="Button"
+                android:visibility="visible"/>
+
+            <Button
+                android:id="@+id/botonMedina"
+                android:layout_width="1.5in"
+                android:layout_height="0.5in"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="3.6in"
+                android:layout_marginTop="1.9in"
+                android:text="Button"
+                android:visibility="visible"/>
+
+            <Button
+                android:id="@+id/rosaDeLosVientos"
+                android:layout_width="0.75in"
+                android:layout_height="0.75in"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="0in"
+                android:layout_marginTop="0in"
+                android:background="@drawable/compasbueno"
+                android:text=""
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/gpsAlcazaba"
+                android:layout_width="0.25in"
+                android:layout_height="0.25in"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="2in"
+                android:layout_marginTop="1.1in"
+                android:src="@drawable/gps" />
+
+        </RelativeLayout>
+
+    </HorizontalScrollView>
+</ScrollView>

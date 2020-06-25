@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:id="@+id/relativeAlcazaba"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <View
+        android:id="@+id/viewAlcazaba"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/bloqueadoTorreVela"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/torredelavelatarjetabloqueada"
+        android:visibility="visible"
+        />
+
+    <ImageView
+        android:id="@+id/desbloqueadoTorreVela"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/torredelavelatarjetadesbloqueada"
+        android:visibility="invisible" />
+
+
+</RelativeLayout>

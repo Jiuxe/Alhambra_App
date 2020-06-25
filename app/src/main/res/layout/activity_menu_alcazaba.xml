@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="6in"
+    android:layout_height="3in"
+    android:scrollbars="vertical"
+    android:id="@+id/scrollAlcazaba">
+    <HorizontalScrollView
+        android:layout_width="6in"
+        android:layout_height="10in"
+        android:id="@+id/h_scrollAlcazaba"
+        android:layout_marginTop="0in">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:id="@+id/relativeAlcazaba">
+
+            <ImageView
+                android:id="@+id/fondoAlcazaba"
+                android:layout_width="7in"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginBottom="0dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/app_name"
+                android:nestedScrollingEnabled="false"
+                android:scaleType="fitStart"
+                android:src="@drawable/alcazabarelieve"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/seleccionableAlcazaba"
+                android:layout_width="0.35in"
+                android:layout_height="1.6in"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="4.90in"
+                android:layout_marginTop="0.80in"
+                android:text="Button"
+                android:visibility="visible"/>
+
+            <Button
+                android:id="@+id/seleccionableTorreDeLaVela"
+                android:layout_width="0.55in"
+                android:layout_height="0.6in"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="2.85in"
+                android:layout_marginTop="1.35in"
+                android:text="Button"
+                android:visibility="visible"/>
+
+            <ImageButton
+                android:layout_width="1in"
+                android:layout_height="1.5in"
+                android:layout_marginStart="4.6in"
+                android:layout_marginTop="0.1in"
+                android:id="@+id/etiquetaAlcazaba"
+                android:src="@drawable/etiquetaalcazaba"
+                />
+
+            <ImageButton
+                android:layout_width="1in"
+                android:layout_height="1.5in"
+                android:layout_marginStart="2.6in"
+                android:layout_marginTop="0.1in"
+                android:id="@+id/etiquetaTorreVela"
+                android:src="@drawable/etiquetatorrevela"
+                />
+
+
+        </RelativeLayout>
+
+    </HorizontalScrollView>
+</ScrollView>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="6in"
+    android:layout_height="3in"
+    android:scrollbars="vertical"
+    android:id="@+id/scrollPanoramica">
+    <HorizontalScrollView
+        android:layout_width="6in"
+        android:layout_height="10in"
+        android:id="@+id/h_scrollPanoramica"
+        android:layout_marginTop="0in">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:id="@+id/relativePanoramica">
+
+            <ImageView
+                android:id="@+id/panoramica"
+                android:layout_width="12in"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginBottom="0dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/app_name"
+                android:nestedScrollingEnabled="false"
+                android:scaleType="fitStart"
+                android:src="@drawable/panoramicagranada"
+                android:visibility="visible" />
+
+            <ImageView
+                android:layout_width="1in"
+                android:layout_height="1in"
+                android:layout_marginStart="3.90in"
+                android:layout_marginTop="2.50in"
+                android:src="@drawable/cafepin"
+                />
+            <ImageView
+                android:layout_width="1in"
+                android:layout_height="1in"
+                android:layout_marginStart="1.10in"
+                android:layout_marginTop="2in"
+                android:src="@drawable/cafepin"
+                />
+            <ImageView
+                android:layout_width="1in"
+                android:layout_height="1in"
+                android:layout_marginStart="4.60in"
+                android:layout_marginTop="1.6in"
+                android:src="@drawable/miradoree"
+                />
+        </RelativeLayout>
+
+    </HorizontalScrollView>
+</ScrollView>
